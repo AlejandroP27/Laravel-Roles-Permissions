@@ -46,4 +46,15 @@ class User extends Authenticatable
         'name' => 'required',
         'email' => 'email',
     ];
+
+    public function adminlte_image(){
+       
+        return 'https://png.pngtree.com/png-clipart/20190516/original/pngtree-users-vector-icon-png-image_3725294.jpg';
+     
+    }
+
+    public function adminlte_desc(){
+
+        /* return 'Administrador'; */
+        }
 }
